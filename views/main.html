@@ -1,0 +1,238 @@
+<!--<ul class="nav nav-tabs nav-justified" role="tablist" ng-controller="TabCtrl">
+    <li role="presentation"><a onclick="showTab(1)">Hillary {{count}}</a></li>
+    <li role="presentation"><a onclick="showTab(0)">Home</a></li>
+    <li role="presentation"><a onclick="showTab(2)">Donald</a></li>
+</ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+        <h1 id="title">Hillary vs. Donald</h1>
+        <div class="tweet-tab invisible" id="hillary">
+            <a class="twitter-timeline" data-chrome="nofooter" href="https://twitter.com/search?q=%23HillaryClinton%20Hillary%20Clinton" data-widget-id="763246402600247296"></a>
+            <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+        </div>
+
+        <div class="tweet-tab invisible" id="donald">
+            <a class="twitter-timeline" data-chrome="nofooter" href="https://twitter.com/search?q=%23DonaldTrump%20Donald%20Trump" data-widget-id="763245631607406593"></a>
+            <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+        </div>
+    </div>
+</div>-->
+<!--New Layout-->
+<link href="~/../styles/main.css?4.1" rel="stylesheet" />
+<script src="~/../scripts/main.js"></script>
+<div class="row">
+    <div class="col-md-12 heading" style="background-color:#ff4940;height:74px;">
+        <span class="headingText">2016 Presidental Tweets</span>
+    </div>
+</div>
+
+<div class="blue-cirle-div1">
+</div>
+
+
+<div class="PersonMenu">
+    <div class="UlPerson row">
+
+        <div class="liHillary col-md-6 col-sm-6 col-xs-6">HILLARY TWEETS</div>
+        <div class="liDonald col-md-6 col-sm-6 col-xs-6">DONALD TWEETS</div>
+    </div>
+</div>
+
+
+<div class="blue-cirle-div">
+    <h5 class="text-center">
+        <img src="~/../images/Twitter.png" />
+    </h5>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-6 left-container player1" id="divhc">
+        <div class="row">
+            <div class="col-md-12 padding-0-custom">
+                <div class="col-lg-12 center-children padding-0-custom"></div>
+                <div class="col-lg-7 col-md-7 col-sm-offset-4 col-sm-4 col-xs-offset-3 col-xs-6 left-container-pull-right margin-minus">
+                    <img src="~/../images/HC.jpg" class="img-thumbnail img-responsive imgDP" />
+                </div>
+                <div style="clear:both"></div>
+                <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 left-container-pull-right conuters">
+                    <ul class="nav nav-tabs left-Tabs" style="font-size:12px;">
+                        <li class="active"><a href="#/">Tweets<br /><b>7,783</b></a></li>
+                        <li>
+                            <a href="#/">
+                                Following
+                                <br />
+                                <b>747</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#/">
+                                Followers
+                                <br /><b>8.59M</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#/">
+                                Likes
+                                <br /><b>1,145</b>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#/">
+                                Lists
+                                <br /><b>2</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 left-container-pull-right name-title text-center">
+                    <h2 style="margin-bottom:0px;">
+                        Hillary Clinton
+                        <img src="~/../images/twitter-verified.png" />
+                    </h2>@HillaryClinton
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 left-container-pull-right text-center btn-nametitle">
+                    <span class="btn btn-player1 btn-tweet"><img class="img-tweet" src="~/../images/img-tweet.png" />Tweet To Hillary Clinton</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-6 right-container player2" id="divdd">
+        <div class="row">
+            <div class="col-md-12 padding-0-custom">
+                <div class="col-lg-12 center-children padding-0-custom"></div>
+                <div class="col-lg-7 col-md-7 col-sm-4 col-xs-6 right-container-pull-left margin-minus offset" id="divDD">
+                    <img src="~/../images/DJT.jpg" class="img-thumbnail img-responsive imgDP right-dp" />
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 right-container-pull-left conuters">
+                    <ul class="nav nav-tabs right-Tabs" style="font-size:12px;">
+                        <li class="active">
+                            <a href="#/">
+                                Tweets
+                                <br />
+                                <b>33.1K</b>
+                            </a>
+                        </li>
+                        <li><a href="#/">Following <br /> <b>42</b></a></li>
+                        <li><a href="#/">Followers<br /> <b>11.3M</b></a></li>
+                        <li><a href="#/">Likes<br /><b>37</b></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 right-container-pull-left name-title text-center playerName">
+                    <h2 style="margin-bottom:0px;">Donald J. Trump <img src="~/../images/twitter-verified.png" /></h2>@realDonaldTrump
+                </div>
+
+                <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 right-container-pull-left text-center btn-nametitle">
+                    <span class="btn btn-player2 btn-tweet">
+                        <img class="img-tweet" src="~/../images/img-tweet.png" />Tweet To Donald J. Trump
+                    </span>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="col-lg-12 poll-panel mobile">
+        <div class="text-center">
+            Winning Poll
+        </div>
+        <div class="pull-left text-center poll-header-left player1" style="width:100%" id="divWinPollPlayer1">
+            <span>Hillary Clinton</span>
+            <div class="poll-value">
+                <span class="value">59.8</span><span class="percentage">%</span>
+            </div>
+        </div>
+        <div class="pull-right text-center poll-header-right player2" style="width:100%" id="divWinPollPlayer2">
+            <span>Donald Trump</span>
+            <div class="poll-value">
+                <span class="value">40.1</span><span class="percentage">%</span>
+            </div>
+        </div>
+        <div class="progress mobile" style="clear:both">
+            <div class="progress-bar" role="progressbar" aria-valuenow="59.8" aria-valuemin="0" aria-valuemax="100" style="width:100%"
+                 id="divMobilewProgressPlayer1">
+                59.8%
+            </div>
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40.2" aria-valuemin="0" aria-valuemax="100" style="width:100%"
+                 id="divMobilewProgressPlayer2">
+                40.1%
+            </div>
+        </div>
+        <div class="progress desktop" style="clear:both">
+            <div class="progress-bar" role="progressbar" aria-valuenow="59.8" aria-valuemin="0" aria-valuemax="100" style="width:59.8%"
+                 id="divDesktopProgressPlayer1">
+                59.8%
+            </div>
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40.2" aria-valuemin="0" aria-valuemax="100" style="width:40.2%"
+                 id="divDesktopProgressPlayer2">
+                40.1%
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 poll-panel desktop">
+        <div class="text-center">
+            Winning Poll
+        </div>
+        <div class="pull-left text-center poll-header-left" style="width:59.8%"
+             id="divPollDesktopPlayer1">
+            <span>Hillary Clinton</span>
+            <div class="poll-value">
+                <span class="value">59.8</span><span class="percentage">%</span>
+            </div>
+        </div>
+        <div class="pull-right text-center poll-header-right" style="width:40.2%"
+             id="divPollDesktopPlayer2">
+            <span>Donald Trump</span>
+            <div class="poll-value">
+                <span class="value">40.1</span><span class="percentage">%</span>
+            </div>
+        </div>
+        <div class="progress mobile" style="clear:both">
+            <div class="progress-bar" role="progressbar" aria-valuenow="59.8" aria-valuemin="0" aria-valuemax="100" style="width:100%"
+                 id="divPollMobPlayer1">
+                59.8%
+            </div>
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40.2" aria-valuemin="0" aria-valuemax="100" style="width:100%"
+                 id="divPollMobPlayer2">
+                40.1%
+            </div>
+        </div>
+        <div class="progress desktop" style="clear:both">
+            <div class="progress-bar" role="progressbar" aria-valuenow="59.8" aria-valuemin="0" aria-valuemax="100" style="width:59.8%"
+                 id="divProgressDesktopPlayer1">
+                59.8%
+            </div>
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40.2" aria-valuemin="0" aria-valuemax="100" style="width:40.2%"
+                 id="divProgressDesktopPlayer2">
+                40.1%
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 ">
+        <div class="col-md-6 col-sm-12 col-xs-12 player1" id="divTweetPlayer1">
+            <div class="row">
+                <div class="tweet-tab invisible col-lg-7 col-md-7 col-sm-8 col-xs-12 left-container-pull-right" id="hillary">
+                    <a class="twitter-timeline" data-chrome="nofooter" href="https://twitter.com/search?q=%23HillaryClinton%20Hillary%20Clinton" data-widget-id="763246402600247296"></a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 player2" id="divTweetPlayer2">
+            <div class="row">
+                <div class="tweet-tab invisible col-lg-7 col-md-7 col-sm-8 col-xs-12 right-container-pull-left" id="donald">
+                    <a class="twitter-timeline" data-chrome="nofooter" href="https://twitter.com/search?q=%23DonaldTrump%20Donald%20Trump" data-widget-id="763245631607406593"></a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
